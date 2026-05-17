@@ -2,26 +2,6 @@
 
 Simple implementation request untuk F-Orkut Payment Gateway menggunakan Axios.
 
----
-
-# Installation
-
-```bash
-npm install axios
-```
-
----
-
-# Structure
-
-```bash
-project/
-├── app.js
-└── api.js
-```
-
----
-
 # Configuration
 
 Edit bagian berikut:
