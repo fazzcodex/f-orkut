@@ -27,7 +27,6 @@ project/
 Edit bagian berikut:
 
 ```js
-const API_BASE_URL = 'http://localhost:3000';
 const API_KEY = 'YOUR_API_KEY';
 ```
 
@@ -37,8 +36,7 @@ const API_KEY = 'YOUR_API_KEY';
 
 ```js
 const axios = require('axios');
-
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = "https://api.f-orkut.fazzcode.qzz.io";
 const API_KEY = 'YOUR_API_KEY';
 
 const api = axios.create({
@@ -309,7 +307,7 @@ X-Requested-With: XMLHttpRequest
   "transaction_id": "TXN4F2D8A7B",
   "amount": 10000,
   "method": "QRIS",
-  "payment_url": "http://localhost:3000/pay/TXN4F2D8A7B",
+  "payment_url": "https://api.f-orkut.fazzcode.qzz.io/pay/TXN4F2D8A7B",
   "expired_at": "2026-05-17T10:00:00.000Z",
   "status": "PENDING"
 }
@@ -322,7 +320,7 @@ X-Requested-With: XMLHttpRequest
 ## Create Payment
 
 ```bash
-curl -X POST http://localhost:3000/api/payment/create \
+curl -X POST https://api.f-orkut.fazzcode.qzz.io/api/payment/create \
 -H "Content-Type: application/json" \
 -H "X-API-Key: YOUR_API_KEY" \
 -H "X-Requested-With: XMLHttpRequest" \
