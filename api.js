@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://api.f-orkut.fazzcode.qzz.io';
 const API_KEY = 'YOUR_API_KEY';
 
 const api = axios.create({
